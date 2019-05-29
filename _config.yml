@@ -28,11 +28,9 @@ quote:
 
 # Build settings
 markdown: kramdown
-  input: GFM
 theme: minima
 plugins:
   - jekyll-feed
-
 
 paginate: 3
 permalink: /:categories/:title
