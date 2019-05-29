@@ -3,9 +3,10 @@ layout: post
 title: Many more roads
 category: hpc
 tags:
-  - hpc
-  - cluster
-  - schedulers
+    - hpc
+    - cluster
+    - schedulers
+quote: QUOTE115
 excerpt_separator: <!--more-->
 ---
 

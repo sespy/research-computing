@@ -32,10 +32,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-paginate: 3
-permalink: /:categories/:title
-paginate_path: /_pages/page:num
-highlighter: rouge
+#paginate: 3
+#permalink: /:categories/:title
+#paginate_path: /_pages/page:num
+#highlighter: rouge
 
 
 # Exclude from processing.
