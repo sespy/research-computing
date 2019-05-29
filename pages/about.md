@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About
-description: More information about me and this website.
+description: More information about this website.
 ---
 
-I am ...
+ResearchComputing.io is a website dedicated to sharing insights and experiences related to High Performance Computing (HPC), peta scale storage, and life sciences applications of information technology. 
+
 
 ## Contact form
 
