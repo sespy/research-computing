@@ -35,10 +35,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
-#paginate: 3
+paginate: 3
 #permalink: /:categories/:title
 #paginate_path: /_pages/page:num
 highlighter: rouge
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # add /sitemap.xml file
 
 
 # Exclude from processing.
