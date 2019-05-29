@@ -1,5 +1,6 @@
 ---
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
 ---
 
 <h1>Latest Posts</h1>
