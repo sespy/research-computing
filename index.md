@@ -3,10 +3,6 @@
 layout: default
 ---
 
-<h1>Latest Posts</h1>
-
-<ul>
-  {% for post in site.posts %}
-  {% include articles.html %}
-  {% endfor %}
-</ul>
+{% for page in site.posts %}
+{% include articles.html %}
+{% endfor %}
