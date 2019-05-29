@@ -10,6 +10,7 @@ layout: default
     </header>
     {{ page.content }}
     <footer>
+        {% include post_meta.html %}
         {% if page.comments %}
         {% include disqus.html %}
         {% endif %}

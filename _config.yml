@@ -11,21 +11,34 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ResearchComputing.io
+owner: RCio
+title: Research Computing Blog
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Analysis and insight at the intersection of information technology
   and lifesciences research.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://researchcomputing.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+quote:
+  enable: true
+  quote: If we knew what it was we were doing, it would not be called research, would it?
+  author: Albert Einstein
 
 # Build settings
 markdown: kramdown
+  input: GFM
 theme: minima
 plugins:
   - jekyll-feed
+
+
+paginate: 3
+permalink: /:categories/:title
+paginate_path: /_pages/page:num
+highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
