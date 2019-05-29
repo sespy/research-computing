@@ -4,7 +4,4 @@ title: About
 permalink: /about/
 ---
 
-ResearchComputing.io is a website, complete with words, links, and pictures.
-
-
-[jekyll-organization]: https://github.com/jekyll
+ResearchComputing.io is a website dedicated to sharing insights and experiences related to High Performance Computing (HPC), peta scale storage, and life sciences applications of information technology. 
