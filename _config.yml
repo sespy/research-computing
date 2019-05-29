@@ -28,8 +28,8 @@ quote:
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
+# kramdown:
+#   input: GFM
 
   theme: minima
 plugins:
@@ -44,10 +44,10 @@ highlighter: rouge
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - CNAME
 
 #   - node_modules
 #   - vendor/bundle/
