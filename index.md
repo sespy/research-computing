@@ -18,7 +18,7 @@ layout: default
 {% endfor %}
 
 
-
+<!-- 
 {% for page in site.posts %}
 {% include articles.html %}
-{% endfor %}
+{% endfor %} -->
