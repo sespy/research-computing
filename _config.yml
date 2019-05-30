@@ -35,7 +35,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
-paginate: 3
+paginate: 4
+
 #permalink: /:categories/:title
 #paginate_path: /_pages/page:num
 highlighter: rouge
